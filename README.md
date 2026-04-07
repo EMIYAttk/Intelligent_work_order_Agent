@@ -12,6 +12,12 @@
 下载好本项目后，在项目文件夹下运行命令：
 conda env create -f environment.yml
 
+在本项目文件夹根目录下，创建一个.env文件，用于存放环境变量，目前需要以下变量：
+- OPENAI_BASE_URL  模型调用地址，第三方网站需要填（如阿里百炼平台）
+- OPENAI_API_KEY   模型密钥
+- FEISHU_APP_ID    飞书ID
+- FEISHU_APP_SECRET 飞书密钥
+
 在飞书官网，创建自定义机器人，开放权限：
 
 - 获取群组信息
