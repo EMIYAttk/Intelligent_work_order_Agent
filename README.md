@@ -37,3 +37,7 @@ python feishu_bot_ws.py
 
 之后就可以@机器人进行对话，获取工单卡片。
 
+项目可改动点：
+-- 使用fastapi部署在服务器上，不仅是本地环路
+-- knowledge_base.py 和 retrieval_tools.py 改动，可以和PostgreSQL等工作常用数据库连接
+-- 运行效率，返回格式等等.......
