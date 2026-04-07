@@ -4,4 +4,4 @@
 
 
 
-[![点击观看演示视频](https://raw.githubusercontent.com/EMIYAttk/Intelligent_work_order_Agent/main/thumbnail.jpg)](https://cdn.jsdelivr.net/gh/EMIYAttk/Intelligent_work_order_Agent/demo.mp4)
+[![点击观看演示视频](https://raw.githubusercontent.com/EMIYAttk/Intelligent_work_order_Agent/main/thumbnail.jpg)]
