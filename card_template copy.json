@@ -1,0 +1,71 @@
+{
+  "schema": "2.0",
+  "config": { "update_multi": true },
+  "body": {
+    "direction": "vertical",
+    "elements": [
+      {
+        "tag": "column_set",
+        "flex_mode": "stretch",
+        "horizontal_spacing": "12px",
+        "columns": [
+          {
+            "tag": "column",
+            "width": "weighted",
+            "elements": [
+              { "tag": "markdown", "content": "**工单编号**\n{{ticket_id}}" },
+              { "tag": "markdown", "content": "**故障分类**\n<text_tag color='{{category_color}}'>{{category}}</text_tag>" }
+            ]
+          },
+          {
+            "tag": "column",
+            "width": "weighted",
+            "background_style": "blue-50",
+            "elements": [
+              { "tag": "markdown", "content": "**创建时间**\n{{created_time}}" }
+            ]
+          }
+        ]
+      },
+      { "tag": "hr" },
+      {
+        "tag": "column_set",
+        "columns": [
+          {
+            "tag": "column",
+            "width": "weighted",
+            "elements": [
+              { "tag": "markdown", "content": "**用户问题**" },
+              { "tag": "markdown", "content": "{{user_query}}" }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "column_set",
+        "columns": [
+          {
+            "tag": "column",
+            "width": "weighted",
+            "elements": [
+              { "tag": "markdown", "content": "**解决方案**" },
+              { "tag": "markdown", "content": "{{solution}}" }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "column_set",
+        "columns": [
+          {
+            "tag": "column",
+            "width": "weighted",
+            "elements": [
+              { "tag": "markdown", "content": "**置信度**: {{confidence}}" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
