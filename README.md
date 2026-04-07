@@ -4,4 +4,4 @@
 
 
 
-[![点击观看演示视频](https://raw.githubusercontent.com/EMIYAttk/Intelligent_work_order_Agent/main/thumbnail.jpg)]
+![点击观看演示视频](https://raw.githubusercontent.com/EMIYAttk/Intelligent_work_order_Agent/main/thumbnail.jpg)
