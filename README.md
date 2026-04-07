@@ -13,9 +13,10 @@
 conda env create -f environment.yml
 
 在飞书官网，创建自定义机器人，开放权限：
---获取群组信息
---获取与发送单聊、群组消息
---接收群聊中@机器人消息事件
+
+- 获取群组信息
+- 获取与发送单聊、群组消息
+- 接收群聊中@机器人消息事件
 
 最后，在一个测试群聊里添加这个自定义的机器人。
 
@@ -38,6 +39,7 @@ python feishu_bot_ws.py
 之后就可以@机器人进行对话，获取工单卡片。
 
 项目可改动点：
--- 使用fastapi部署在服务器上，不仅是本地环路
--- knowledge_base.py 和 retrieval_tools.py 改动，可以和PostgreSQL等工作常用数据库连接
--- 运行效率，返回格式等等.......
+
+-  使用fastapi部署在服务器上，不仅是本地环路
+-  knowledge_base.py 和 retrieval_tools.py 改动，可以和PostgreSQL等工作常用数据库连接
+-  运行效率，返回格式等等.......
